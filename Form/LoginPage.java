@@ -51,7 +51,6 @@ public class LoginPage {
                 LabelInformation.setText("账号/密码错误！");
             }
         }catch (Exception e){
-
             e.printStackTrace();
         }
     }
