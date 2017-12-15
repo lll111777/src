@@ -32,15 +32,15 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <component id="c9431" class="javax.swing.JLabel">
+                  <component id="c9431" class="javax.swing.JLabel" binding="LabelName">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
-                      <text value="Label"/>
+                      <text value="姓名"/>
                     </properties>
                   </component>
-                  <component id="40dce" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                  <component id="40dce" class="javax.swing.JTextField" binding="TextName">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="-1"/>
@@ -58,15 +58,15 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <component id="55334" class="javax.swing.JLabel">
+                  <component id="55334" class="javax.swing.JLabel" binding="LabelSex">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
-                      <text value="Label"/>
+                      <text value="性别"/>
                     </properties>
                   </component>
-                  <component id="ee2c9" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+                  <component id="ee2c9" class="javax.swing.JTextField" binding="TextSex">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="-1"/>
@@ -84,15 +84,15 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <component id="ba1b0" class="javax.swing.JLabel">
+                  <component id="ba1b0" class="javax.swing.JLabel" binding="LabelYear">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
-                      <text value="Label"/>
+                      <text value="年龄"/>
                     </properties>
                   </component>
-                  <component id="61c00" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+                  <component id="61c00" class="javax.swing.JTextField" binding="TextAge">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="-1"/>
@@ -110,15 +110,15 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <component id="81b92" class="javax.swing.JLabel">
+                  <component id="81b92" class="javax.swing.JLabel" binding="LabelTime">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
-                      <text value="Label"/>
+                      <text value="入学时间"/>
                     </properties>
                   </component>
-                  <component id="b684a" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+                  <component id="b684a" class="javax.swing.JTextField" binding="TextYear">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="-1"/>
@@ -136,15 +136,15 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <component id="c7b38" class="javax.swing.JLabel">
+                  <component id="c7b38" class="javax.swing.JLabel" binding="LabelGpa">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
                     <properties>
-                      <text value="Label"/>
+                      <text value="Gpa"/>
                     </properties>
                   </component>
-                  <component id="67bba" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+                  <component id="67bba" class="javax.swing.JTextField" binding="TextGpa">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="-1"/>
@@ -180,15 +180,15 @@
                     <properties/>
                     <border type="none"/>
                     <children>
-                      <component id="f9b98" class="javax.swing.JLabel">
+                      <component id="f9b98" class="javax.swing.JLabel" binding="LabelID">
                         <constraints>
                           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                         </constraints>
                         <properties>
-                          <text value="Label"/>
+                          <text value="请输入学号"/>
                         </properties>
                       </component>
-                      <component id="12916" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+                      <component id="12916" class="javax.swing.JTextField" binding="TextID">
                         <constraints>
                           <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                             <preferred-size width="150" height="-1"/>
@@ -223,12 +223,12 @@
                         <properties/>
                         <border type="none"/>
                         <children>
-                          <component id="e7f4b" class="javax.swing.JButton" binding="button1" default-binding="true">
+                          <component id="e7f4b" class="javax.swing.JButton" binding="BtnCheck">
                             <constraints>
                               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                             </constraints>
                             <properties>
-                              <text value="Button"/>
+                              <text value="查询"/>
                             </properties>
                           </component>
                         </children>
@@ -303,12 +303,12 @@
                         <properties/>
                         <border type="none"/>
                         <children>
-                          <component id="f1e48" class="javax.swing.JButton" binding="button2" default-binding="true">
+                          <component id="f1e48" class="javax.swing.JButton" binding="BtnReturn">
                             <constraints>
                               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                             </constraints>
                             <properties>
-                              <text value="Button"/>
+                              <text value="返回"/>
                             </properties>
                           </component>
                         </children>
