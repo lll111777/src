@@ -18,8 +18,10 @@ public class LoginPage {
     public LoginPage() {
         if(DBconnection.connect!=null){
             LabelInformation.setText("数据库在线！");
+            LabelInformation.setText("连接数据库成功！");
         }else {
             LabelInformation.setText("数据库已挂！");
+            LabelInformation.setText("连接数据库失败！");
         }
         btnLogin.addActionListener(new ActionListener() {
             @Override
@@ -36,12 +38,18 @@ public class LoginPage {
         accountField1.setText("");
         passwordField1.setText("");
         String message="SELECT [key] FROM [user] WHERE Account=\'"+Account+"\' AND "+"Password=\'"+Password+"\';";
+        String message="SELECT key FROM user WHERE Account=\'"+Account+"\' AND "+"Password=\'"+Password+"\';";
         rs=DBconnection.selectQuery(message);
         int temp=0;
+        int temp=-1;
         try {
             if (rs != null) {
                 if (rs.next()){
                 temp= rs.getInt(1);}
+                else {
+                    LabelInformation.setText("账号/密码错误！");
+                    return;
+                }
                if(temp==0){
                    LabelInformation.setText("管理员");
                    Controller.switchState(1);

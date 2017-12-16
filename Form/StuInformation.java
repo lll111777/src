@@ -67,6 +67,10 @@ public class StuInformation {
             } else {
                 JOptionPane.showMessageDialog(null, "该学生不存在", "提示", JOptionPane.ERROR_MESSAGE);
                 LabelID.setText("");
+                else {
+                    JOptionPane.showMessageDialog(null, "该学生不存在", "提示", JOptionPane.ERROR_MESSAGE);
+
+            }
             }
         }catch (Exception e){
             e.printStackTrace();

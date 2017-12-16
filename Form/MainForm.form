@@ -78,6 +78,7 @@
                 <constraints/>
                 <properties>
                   <text value="查询课程信息"/>
+                  <text value="查询选课信息"/>
                 </properties>
               </component>
             </children>

@@ -22,6 +22,7 @@ public class Controller {
         frame.setSize(500,350);
         //frame.pack();
         frame.setVisible(true);
+        frame.setAlwaysOnTop(true);
     }
     public static void switchState(int change){
         switch (change){
@@ -57,6 +58,7 @@ public class Controller {
             default:
                 break;
         }
+
     }
     public static void main(String[] args) {
         Controller controller=new Controller("Mydata");
