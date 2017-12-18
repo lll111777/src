@@ -1,6 +1,7 @@
 package Form;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -10,9 +11,13 @@ public class MainForm {
     private JButton 查询系内课程Button;
     private JButton 查询课程信息Button;
     public JPanel mainPanel;
+    private JLabel Label1;
+    private JButton BtnC;
 
 
     public MainForm() {
+        Label1.setFont(new Font("Dialog",1,52));
+        Label1.setForeground(Color.blue);
         查询学生信息Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -29,6 +34,12 @@ public class MainForm {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Controller.switchState(4);
+            }
+        });
+        BtnC.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Controller.switchState(6);
             }
         });
     }

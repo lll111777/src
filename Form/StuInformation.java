@@ -64,9 +64,6 @@ public class StuInformation {
                    TextYear.setText(String.valueOf(year));
                    TextGpa.setText(String.valueOf(gpa));
                 }
-            } else {
-                JOptionPane.showMessageDialog(null, "该学生不存在", "提示", JOptionPane.ERROR_MESSAGE);
-                LabelID.setText("");
                 else {
                     JOptionPane.showMessageDialog(null, "该学生不存在", "提示", JOptionPane.ERROR_MESSAGE);
 

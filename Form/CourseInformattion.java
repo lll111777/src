@@ -12,9 +12,7 @@ import java.util.Vector;
 public class CourseInformattion {
     public JPanel panel1;
     private JButton button1;
-    private JComboBox comboBox2;
     private JComboBox comboBox1;
-    private JList list1;
     private JComboBox comboBox2;
     private JTable table1;
     static ResultSet rs = null;

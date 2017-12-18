@@ -1,8 +1,5 @@
 package Form;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.*;
 import java.util.Properties;
 
 public class DBconnection {
@@ -29,6 +26,14 @@ public class DBconnection {
             e.printStackTrace();
         }
         return  rs;
+    }
+    public static void insertMessage(String sql){
+        try {
+            stmt=connect.prepareStatement(sql);
+            stmt.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
     //关闭连接
     public  static void closeConnection(){
