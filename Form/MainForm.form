@@ -77,7 +77,6 @@
               <component id="585d" class="javax.swing.JButton" binding="查询课程信息Button" default-binding="true">
                 <constraints/>
                 <properties>
-                  <text value="查询课程信息"/>
                   <text value="查询选课信息"/>
                 </properties>
               </component>

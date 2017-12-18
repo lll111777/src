@@ -29,28 +29,24 @@ public class Controller {
             case 1:
                 state=1;
                 frame.setVisible(false);
-                frame.setTitle("管理员");
                 frame.setTitle("主界面");
                 frame.setContentPane(new MainForm().mainPanel);
                 frame.setVisible(true);
                 break;
             case 2:
                 frame.setVisible(false);
-                frame.setTitle("管理员");
                 frame.setTitle("学生信息");
                 frame.setContentPane(new StuInformation().panel1);
                 frame.setVisible(true);
                 break;
             case 3:
                 frame.setVisible(false);
-                frame.setTitle("管理员");
                 frame.setTitle("系课程");
                 frame.setContentPane(new CoursesOfDepartment().panel1);
                 frame.setVisible(true);
                 break;
             case 4:
                 frame.setVisible(false);
-                frame.setTitle("管理员");
                 frame.setTitle("课程信息");
                 frame.setContentPane(new CourseInformattion().panel1);
                 frame.setVisible(true);

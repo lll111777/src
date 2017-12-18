@@ -14,12 +14,9 @@ public class CoursesOfDepartment {
     public JPanel panel1;
     private JComboBox comboBox1;
     private JButton BtnReturn;
-    private JList list1;
     private JLabel LabelDpt;
-    private JButton BtnCheck;
     private JTable table1;
     static ResultSet rs = null;
-    private static String[] example;
     private  String[] example;
     private DefaultTableModel model;
     private Vector vName;
@@ -56,10 +53,8 @@ public class CoursesOfDepartment {
     }
 
     public void init() {
-        String sql = "SELECT dname FROM Dept ORDER BY dname;";
         String sql = "SELECT dname FROM Dept;";
         rs = DBconnection.selectQuery(sql);
-        System.out.print(rs);
         //System.out.println(rs);
         example=new String[6];
         try {
@@ -82,7 +77,6 @@ public class CoursesOfDepartment {
         comboBox1.setSelectedItem(null);
     }
 
-                    example[i++]=rs.getString(1);
 
     public void setTable1(String dname)
     {
@@ -116,8 +110,6 @@ public class CoursesOfDepartment {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println(example);
-        comboBox1=new JComboBox(example);
         //System.out.println(example.length);
 
         model=new DefaultTableModel(vData,vName);
